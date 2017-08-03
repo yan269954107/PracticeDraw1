@@ -21,7 +21,7 @@ public class Practice9DrawPathView extends View {
     public Practice9DrawPathView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
-        mPaint.setStyle(Paint.Style.STROKE);
+        mPaint.setStyle(Paint.Style.FILL);
         mPath = new Path();
 
         mPath.moveTo(100, 100);
